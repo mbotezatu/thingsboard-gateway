@@ -1949,7 +1949,7 @@ class TBGatewayService:
         if hasattr(self, '_TBGatewayService__max_payload_size_in_bytes'):
             return int(self.__max_payload_size_in_bytes * 0.9)
 
-        return 8196
+        return 1_000_000
 
     # ----------------------------
     # Storage --------------------
